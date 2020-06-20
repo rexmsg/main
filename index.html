@@ -62,7 +62,7 @@
     <button id="my-form-button" class="uk-button uk-button-primary">Send Message</button>
 </p>
       
-      <div class="uk-alert-success" id="my-form-status" uk-alert>
+      <div style="display:none;" class="uk-alert-success" id="my-form-status" uk-alert>
     <p>Thank you for your message.</p>
 </div>
 
@@ -85,7 +85,7 @@
     function success() {
       form.reset();
       button.style = "display: none ";
-      status.innerHTML = "Thanks for your message.";
+      status.style =  "display: inline-block ";
     }
 
     function error() {
