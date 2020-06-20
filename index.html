@@ -47,6 +47,43 @@
   <button id="my-form-button">Submit</button>
   <p id="my-form-status"></p>
 </form>
+        
+<form id="my-form"
+  action="https://formspree.io/mqkylljn"
+  method="POST"
+>
+    <fieldset class="uk-fieldset">
+
+        <div class="uk-margin">
+            <label>Your Name</label>
+            <input class="uk-input" type="text" name="name" placeholder="Your Name">
+        </div>
+      
+       <div class="uk-margin">
+         <label>Your Email</label>
+            <input class="uk-input" type="email" name="email" placeholder="Your Email">
+        </div>
+      
+        <div class="uk-margin">
+            <label>Your Phone Number</label>
+            <input class="uk-input" type="phone" name="phone" placeholder="Your Phone Number">
+        </div>
+
+        <div class="uk-margin">
+            <label>Your Message</label>
+            <textarea class="uk-textarea" rows="5" name="message" placeholder="Your Message"></textarea>
+        </div>
+      
+      <p uk-margin>
+    <button id="my-form-button" class="uk-button uk-button-primary">Primary</button>
+</p>
+      
+      <div class="uk-alert-success" id="my-form-status" uk-alert>
+    <p>Thank you for your message.</p>
+</div>
+
+    </fieldset>
+</form>
 
 <!-- Place this script at the end of the body tag -->
 
